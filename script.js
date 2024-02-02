@@ -93,7 +93,8 @@ function displayResults() {
     ];
     
     //const questionContainer = document.getElementById('question-container');
-    questionContainer.innerHTML = `<p>Takk for at du deltok! Basert på dine svar, anbefaler jeg følgende utesteder:</p>`;
+    questionContainer.innerHTML = `<p>Takk for at du deltok! Basert på dine svar, anbefaler jeg følgende utesteder:</p>`,
+        `<p>OBS: I fjor gikk Elsker ut mot «heterosafari», hvor folk har det gøy på skeives bekostning. Vis respekt – som på alle andre steder!</p>`;
 
     // Score each venue based on the number of matches with the user's results
     venues.forEach(venue => {
