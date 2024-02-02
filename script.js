@@ -74,7 +74,7 @@ function nextQuestion() {
 
 function displayResults() {
     const questionContainer = document.getElementById('question-container');
-    questionContainer.innerHTML = `<p>Takk for at du deltok! Basert på dine svar, anbefaler vi følgende utesteder:</p>`;
+    questionContainer.innerHTML = `<p>Takk for at du deltok! Basert på dine svar, anbefaler vi følgende utesteder(obs: I fjor gikk Elsker ut mot «heterosafari», hvor folk har det gøy på skeives bekostning. Vis respekt – som på alle andre steder!):</p>`;
     const venues = [
         { name: "Justisen", atmosphere: "Livlig", ageGroup: "Blandet", music: "Variert/Uspesifisert", dance: "Nei", conversation: "Ja", inclusive: "Ja", uniqueConcept: "Nei" },
         { name: "BA3", atmosphere: "Livlig", ageGroup: "Blandet", music: "Variert/Uspesifisert", dance: "Ja", conversation: "Nei", inclusive: "Ja", uniqueConcept: "Nei" },
